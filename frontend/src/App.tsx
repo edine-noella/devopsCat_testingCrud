@@ -25,12 +25,12 @@ function Home() {
       </h1> */}
 
       <div className="flex gap-4 items-center justify-center">
-        <Link to="/buy" className="bg-rose-700 py-4 px-2 rounded-sm text-white">
+        <Link to="/buy" className="bg-indigo-700 py-4 px-2 rounded-sm text-white">
           Buy units{" "}
         </Link>
         <Link
           to="/check"
-          className="bg-red-600 py-4 px-2 text-white rounded-sm"
+          className="bg-indigo-600 py-4 px-2 text-white rounded-sm"
         >
           Check units
         </Link>
@@ -42,9 +42,9 @@ function Home() {
 function Layout() {
   return (
     <section>
-      <nav className="flex shadow-sm bg-rose-800 text-white  gap-8 py-4">
+      <nav className="flex shadow-sm bg-indigo-800 text-white  gap-8 py-4">
         <Link to="/" className="font-bold">
-          e-Power
+          ElecBill
         </Link>
         <div className="flex gap-4">
           <Link to="/buy">Buy</Link>
