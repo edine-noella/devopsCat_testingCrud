@@ -56,7 +56,7 @@ export default function Check() {
         />
 
         <button type="submit" className="bg-indigo-700 py-2 rounded text-white">
-          submitagggaaaa
+          submit
         </button>
       </form>
 
